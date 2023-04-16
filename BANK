@@ -1,0 +1,18 @@
+class Bank:
+    def __init__(self, balance):
+        self.balance = balance
+
+    def debaset(self, amount):
+        self.balance += amount
+
+    def withdarw(self, amount):
+            self.balance -= amount
+
+    def balancee(self):
+        print("your balance now is ",self.balance)
+
+
+b = Bank(500)
+b.debaset(200)
+b.withdarw(50)
+b.balancee()
